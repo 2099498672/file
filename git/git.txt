@@ -2,6 +2,6 @@ git remote -v                #查看远程仓库的 URL
 git remote show origin       #查看远程仓库的详细信息
 git fetch                    #获取远程仓库的最新信息
 git branch -r                #查看远程分支
-git push --set-upstream origin main    #将当前分支与远程 main 分支关联起来，如果远程没有 main 分支，则会在远程创建 main 分支并推送当前分支的内容
-git branch --set-upstream-to=origin/main main    # 将当前分支与远程 main 分支关联起来
-git pull origin main --rebase #拉取远程分支的更改并合并
+git push --set-upstream origin main              #将当前分支与远程 main 分支关联起来，如果远程没有 main 分支，则会在远程创建 main 分支并推送当前分支的内容
+git branch --set-upstream-to=origin/main main    #将当前分支与远程 main 分支关联起来
+git pull origin main --rebase                    #拉取远程分支的更改并合并
